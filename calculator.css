@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(19, 7, 1);
+}
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+h1{
+	color: cornsilk;
+	font-family: fantasy;
+	margin-left: 45%;
+}
+
+div,.calculatorScreen {
+	margin: 0 auto;
+	border-radius: 9px;
+	border: 3px solid grey;
+    padding: 10px;
+	width: 355px;
+	height: 450px;
+	align-items: center;
+	background: linear-gradient(to right, rgba(19, 18, 18, 0.822), rgba(31, 30, 30, 0.822),rgba(109, 109, 107,0.822), rgba(85,81,81,0.822), rgba(31, 30, 30, 0.822), rgba(19, 18, 18, 0.822));
+	box-shadow:2px 2px 1px 2px rgb(0, 0, 0);
+}
+.calculatorScreen{
+	/* background-color: rgba(7, 7, 7, 0.952); */
+	background: linear-gradient(to top, rgba(10, 10, 10, 0.925),rgba(46, 40, 40, 0.925),rgba(29, 25, 25, 0.925),rgba(7,7,7,0.925));
+	width: 330px;
+	height: 100px;
+	border-radius: 10px;
+	border: 2px solid rgb(26, 25, 25);
+	margin: 0 auto;	
+	font-size: xx-large;
+	color: #ffe5ac;
+	line-height: 100px;
+	text-align: right;
+	box-shadow: 1px 1px rgb(0, 0, 0);
+}
+table{
+	background: linear-gradient(to bottom,#3f3a3af8,#4d4c4cef,#646262f8,#3f3a3af8);
+	/* background-color: #3f3a3af8; */
+	width: 336px;
+	height: 300px;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border:1px solid rgb(36, 36, 36);
+}
+td{
+	width: 110px;
+	height: 60px;
+	text-align:right;
+	font-size: xx-large;
+}
+td:active{
+	background-color: #5c5c39;
+	border-radius: 11px;
+}
+input,button{
+	width: 75px;
+	height: 45px;
+	border: 2px solid rgba(54, 54, 54, 0.658);
+	border-radius: 5px;
+	background: linear-gradient(rgba(124, 124, 124, 0.884),rgba(70, 69, 69, 0.884),rgba(70, 62, 62, 0.884),rgba(66, 57, 57, 0.884),rgba(66, 57, 57, 0.884),rgba(70, 62, 62, 0.884),rgba(70, 69, 69, 0.884),rgba(146, 146, 146, 0.884));
+	color: rgb(219, 217, 214);
+	font-size: 20px;
+	box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+input:hover {
+	background-color: #eaeaea7c;
+  }
+
+.operator.red, .clear{
+	background: rgb(82, 4, 4);
+	border: 2px solid rgb(116, 2, 2);
+}
+
+.operator{
+	background: rgb(28, 28, 90);
+	border: 2px solid rgb(38, 38, 97);
+}
+i{
+	color: rgb(248, 223, 223);
+}
